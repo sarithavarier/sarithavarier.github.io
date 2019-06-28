@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>testing form</title>
+  </head>
+  <body>
+    <form  action="contact_result.html">
+      <label for="uname">Enter Name:</label>
+      <input id='uname' type="text" name="username" placeholder="Please enter your name" required/><br>
+      <h3>Gender</h3>
+      <label for="M">Male</label>
+      <input id='M' type="radio" name="gender"/>
+      <label for='F'>Female</label>
+      <input id='F' type="radio" name="gender"/>
+      <h3>Select payment method</h3>
+      <select name="pmode" multiple>
+        <option value="ccard">Credit Card</option>
+        <option value="dcard">Debit Card</option>
+        <option value="netb">Net Banking</option>
+      </select><br><br>
+      <h3>Languages known</h3>
+      <input type="checkbox" name="languages" value="English">English<br>
+      <input type="checkbox" name="languages" value="Hindi">Hindi<br>
+      <input type="checkbox" name="languages" value="Malayalam">Malayalam<br>
+      <input type="checkbox" name="languages" value="Tamil">Tamil<br>
+      <input type="checkbox" name="languages" value="Kannada">Kannada<br>
+      <input type="submit" value="click here">
+    </form>
+  </body>
+</html>

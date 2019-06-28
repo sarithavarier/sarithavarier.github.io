@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+}
+td{
+  width:150px;
+  height:300px;
+  border:5px solid white;
+}
+.tab{
+  margin: auto;
+}
+#one{
+  background:violet;
+}
+#two{
+  background:indigo;
+}
+#three{
+  background:blue;
+}
+#four{
+  background:green;
+}
+#five{
+  background:yellow;
+}
+#six{
+  background:orange;
+}
+#seven{
+  background:red;
+}
